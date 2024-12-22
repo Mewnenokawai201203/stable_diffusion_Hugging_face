@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Generator</title>
+    <link rel="icon" type="image/png" href="../static/images/stablediffusionlogo.png">
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../static/images/stablediffusionlogo.png" alt="Logo">
+            
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="title">generate images</h1>
+        <p class="description">Biến văn bản của bạn thành những bức tranh minh họa !</p>
+        <div class="input-container">
+            <input type="text" id="prompt" placeholder="Enter a prompt..." />
+        </div>
+        <button onclick="generateImage()">tạo ảnh</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+
+</body>
+</html>
